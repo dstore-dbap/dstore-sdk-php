@@ -1,0 +1,26 @@
+{
+  "name": "dstore/dstore-sdk-php",
+  "description": "dStore. Application backend.",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "dbap GmbH",
+      "email": "info@dbap.de"
+    }
+  ],
+
+  "require": {
+    "php": ">=5.5.0",
+    "datto/protobuf-php": "dev-master",
+    "google/auth": "dev-master",
+    "grpc/grpc": "dev-master"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "dstore\\": ".",
+      "google\\": "."
+    }
+  }
+}
