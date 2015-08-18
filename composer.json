@@ -1,6 +1,6 @@
 {
   "name": "dstore/dstore-sdk-php",
-  "description": "dStore. Application backend.",
+  "description": "PHP SDK for dStore.",
   "minimum-stability": "dev",
   "license": "proprietary",
   "authors": [
