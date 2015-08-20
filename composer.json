@@ -9,15 +9,20 @@
       "email": "info@dbap.de"
     }
   ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/stanley-cheung/Protobuf-PHP"
+    }
+  ],
 
   "require": {
     "php": ">=5.5.0",
     "datto/protobuf-php": "dev-master",
     "google/auth": "dev-master",
     "grpc/grpc": "dev-master",
-    "ext-grpc" : "*"
+    "ext-grpc": "*"
   },
-
   "autoload": {
     "psr-4": {
       "dstore\\": "dstore",
