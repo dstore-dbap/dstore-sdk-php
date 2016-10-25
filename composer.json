@@ -9,16 +9,15 @@
       "email": "info@dbap.de"
     }
   ],
-
   "require": {
     "php": ">=5.5.0",
-    "grpc/grpc": "dev-master",
-    "ext-grpc": "*"
+    "ext-grpc": "*",
+    "grpc/grpc": "master"
   },
   "autoload": {
     "psr-4": {
       "dstore\\": "dstore",
-      "google\\protobuf\\": "google/protobuf"
+      "Grpc\\": "lib/Grpc/"
     }
   }
 }
