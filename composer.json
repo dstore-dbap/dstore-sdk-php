@@ -14,10 +14,11 @@
     "ext-grpc": "*",
     "grpc/grpc": "master"
   },
+
   "autoload": {
     "psr-4": {
-      "dstore\\": "dstore",
       "Grpc\\": "lib/Grpc/"
-    }
+    },
+    "classmap": ["dstore", "google"]
   }
 }

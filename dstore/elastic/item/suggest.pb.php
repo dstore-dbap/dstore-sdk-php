@@ -4,8 +4,6 @@
 
 namespace Dstore\Elastic\Suggest;
 
-require_once('dstore/elastic/elastic.pb.php');
-require_once('dstore/elastic/item/item.pb.php');
 use Google\Protobuf\Internal\DescriptorPool;
 use Google\Protobuf\Internal\GPBType;
 use Google\Protobuf\Internal\RepeatedField;

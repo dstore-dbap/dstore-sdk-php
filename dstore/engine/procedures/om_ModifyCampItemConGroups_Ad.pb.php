@@ -4,9 +4,6 @@
 
 namespace Dstore\Engine\Om_ModifyCampItemConGroups_Ad;
 
-require_once('dstore/values.pb.php');
-require_once('dstore/engine/message.pb.php');
-require_once('dstore/engine/metainformation.pb.php');
 use Google\Protobuf\Internal\DescriptorPool;
 use Google\Protobuf\Internal\GPBType;
 use Google\Protobuf\Internal\RepeatedField;

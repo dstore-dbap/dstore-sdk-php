@@ -4,7 +4,6 @@
 
 namespace Dstore\Elastic;
 
-require_once('dstore/values.pb.php');
 use Google\Protobuf\Internal\DescriptorPool;
 use Google\Protobuf\Internal\GPBType;
 use Google\Protobuf\Internal\RepeatedField;
